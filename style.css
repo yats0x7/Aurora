@@ -1,0 +1,66 @@
+body{
+    background-color:rgb(237, 223, 223)
+}
+.navbar{
+    display:flex;
+    position:sticky;
+    top:0;
+    justify-content:space-around;
+    border:1px solid rgb(138, 137, 137);
+    top:0px;
+    background-color:rgb(130, 130, 133);
+    align-items:center;
+
+}
+.logo1{
+    display:flex;
+    justify-content:start;
+}
+.search{
+    width:400px;
+    height:40px;
+    display:flex;
+    /* justify-content:center; */
+    align-items:center;
+}
+.hero-img{
+    width:1500px
+}
+.hero-section{
+    width:1500px;
+    background-color:rgb(220, 203, 180)
+}
+.boxes{
+    display:flex;
+    justify-content:space-around;
+}
+.box{
+    width:400px;
+    height:500px;
+    margin:20px;
+    background-color:rgb(228, 224, 224); 
+    text-align:left;
+    
+    
+
+}
+.b1{
+    position: relative;
+    
+   
+
+}
+
+.i{
+    width:120px;
+    height:120px;
+    margin:20px;
+}
+/* .aaesthetics{
+
+    display:inline;
+    flex-direction:row;
+    flex-wrap:wrap
+
+    
+} */
