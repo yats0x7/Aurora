@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(237, 223, 223)
+    background-color:rgb(225, 216, 203)
 }
 .navbar{
     display:flex;
@@ -8,7 +8,7 @@ body{
     justify-content:space-around;
     border:1px solid rgb(138, 137, 137);
     top:0px;
-    background-color:rgb(130, 130, 133);
+    background-color:rgb(227, 227, 232);
     align-items:center;
 
 }
@@ -28,39 +28,47 @@ body{
 }
 .hero-section{
     width:1500px;
-    background-color:rgb(220, 203, 180)
+    background-color:rgb(225, 216, 203)
 }
-.boxes{
+.boxes {
     display:flex;
     justify-content:space-around;
 }
 .box{
     width:400px;
     height:500px;
-    margin:20px;
+    margin:10px;
     background-color:rgb(228, 224, 224); 
     text-align:left;
-    
-    
-
-}
-.b1{
     position: relative;
-    
-   
-
+    bottom:385px
 }
+    
+    
+    
+
+
+    
+
 
 .i{
-    width:120px;
+    width:150px;
     height:120px;
-    margin:20px;
+    margin-top:30px;
 }
-/* .aaesthetics{
+.j{   
+    text-decoration:none; 
+    color:black;
+}
+.aaesthetics{
 
-    display:inline;
-    flex-direction:row;
-    flex-wrap:wrap
-
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
     
-} */
+}
+.appliances{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
