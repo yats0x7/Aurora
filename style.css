@@ -1,25 +1,41 @@
+
 body{
-    background-color:rgb(225, 216, 203)
+    background-color:rgb(225, 216, 203);
+   
 }
 .navbar{
     display:flex;
     position:sticky;
+    z-index:3;
     top:0;
     justify-content:space-around;
     border:1px solid rgb(138, 137, 137);
     top:0px;
-    background-color:rgb(227, 227, 232);
+    background-color:rgb(126, 126, 166);
     align-items:center;
+    height:70px
 
+}
+.nav-links1{
+    text-decoration:none;
+    color:black;
+    font-family:Droid Sans Mono;
 }
 .logo1{
     display:flex;
     justify-content:start;
 }
+
+.logo{
+    width:100px
+}
+
 .search{
-    width:400px;
-    height:40px;
+    width:700px;
+    height:38px;
     display:flex;
+    border-radius:10px;
+    border-color:20px solid black;
     /* justify-content:center; */
     align-items:center;
 }
@@ -38,23 +54,37 @@ body{
     width:400px;
     height:500px;
     margin:10px;
-    background-color:rgb(228, 224, 224); 
+    margin-top:-385px;
+    background-color:rgb(255, 255, 255); 
     text-align:left;
     position: relative;
-    bottom:385px
+    z-index:2
+
+    
 }
+.boxi{
+    width:400px;
+    height:500px;
+    margin:10px;
+    background-color:rgb(255, 255, 255); 
+    text-align:left;
+}
+.s_box{
+    width:1500px;
+    height:300px;
+    background-color:rgb(255, 255, 255);
     
-    
-    
-
-
-    
+}
 
 
 .i{
     width:150px;
     height:120px;
     margin-top:30px;
+}
+.ii{
+    width:250px;
+    height:200px;
 }
 .j{   
     text-decoration:none; 
