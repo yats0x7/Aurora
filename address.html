@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Address</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="form-wrapper">
+            <h1>Shipping Address</h1>
+            <p class="subtitle">Please enter your delivery address</p>
+
+            <form class="address-form" action="index.html" method="get" novalidate>
+                <!-- Full Name -->
+                <div class="form-group">
+                    <label for="fullname">
+                        Full Name <span class="required">*</span>
+                    </label>
+                    <input 
+                        type="text" 
+                        id="fullname" 
+                        name="fullname" 
+                        required
+                        placeholder="Rahul Kumar"
+                    />
+                </div>
+
+                <!-- Email Address -->
+                <div class="form-group">
+                    <label for="email">
+                        Email Address <span class="required">*</span>
+                    </label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        required
+                        placeholder="rahul@example.com"
+                    />
+                </div>
+
+                <!-- Phone Number -->
+                <div class="form-group">
+                    <label for="phone-d">
+                        Phone Number <span class="required">*</span>
+                    </label>
+                    <input 
+                        type="tel" 
+                        id="phone-d" 
+                        name="phone" 
+                        required
+                        placeholder="+91 9457458585"
+                    />
+                </div>
+
+                <!-- Street Address -->
+                <div class="form-group">
+                    <label for="street">
+                        Street Address <span class="required">*</span>
+                    </label>
+                    <input 
+                        type="text" 
+                        id="street" 
+                        name="street" 
+                        required
+                        placeholder="Lajpat Nagar"
+                    />
+                </div>
+
+                <!-- Apartment/Suite (Optional) -->
+                <div class="form-group">
+                    <label for="apartment">
+                        Apartment, Suite, etc. (Optional)
+                    </label>
+                    <input 
+                        type="text" 
+                        id="apartment" 
+                        name="apartment" 
+                        placeholder="Apt. 4B"
+                    />
+                </div>
+
+                <!-- City and State Row -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="city">
+                            City <span class="required">*</span>
+                        </label>
+                        <input 
+                            type="text" 
+                            id="city" 
+                            name="city" 
+                            required
+                            placeholder="New Delhi"
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="state">
+                            State/Province <span class="required">*</span>
+                        </label>
+                        <input 
+                            type="text" 
+                            id="state" 
+                            name="state" 
+                            required
+                            placeholder="New Delhi"
+                        />
+                    </div>
+                </div>
+
+                <!-- Postal Code and Country Row -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="postal">
+                            Postal Code <span class="required">*</span>
+                        </label>
+                        <input 
+                            type="text" 
+                            id="postal" 
+                            name="postal" 
+                            required
+                            placeholder="10001"
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="country">
+                            Country <span class="required">*</span>
+                        </label>
+                        <input 
+                            type="text" 
+                            id="country" 
+                            name="country" 
+                            required
+                            placeholder="India"
+                        />
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="submit-btn">
+                    Save Address
+                </button>
+            </form>
+
+            <p class="footer-text">
+                <span class="required">*</span> Required fields
+            </p>
+        </div>
+    </main>
+</body>
+</html>
