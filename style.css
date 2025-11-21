@@ -45,7 +45,7 @@ body{
 }
 .hero-section{
     width:1500px;
-    background-color:rgb(225, 216, 203)
+    background-color:rgb(231, 246, 245);
 }
 .boxes {
     display:flex;
@@ -382,7 +382,7 @@ input::placeholder {
 
 footer{
     text-align:center;
-    background-color:rgb(233, 228, 228);
+    background-color:rgb(255, 255, 255);
     font-size:10px
     
 }
