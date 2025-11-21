@@ -380,5 +380,10 @@ input::placeholder {
     margin-top: 24px;
 }
 
-
+footer{
+    text-align:center;
+    background-color:rgb(233, 228, 228);
+    font-size:10px
+    
+}
 
