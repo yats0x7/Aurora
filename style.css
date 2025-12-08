@@ -99,13 +99,16 @@ body {
 
 }
 
+/* Horizontal Scroll for s_box contents */
 .s_box .aaesthetics {
     display: flex;
     justify-content: flex-start;
     flex-wrap: nowrap;
     overflow-x: auto;
     padding-bottom: 15px;
+    /* Space for scrollbar */
     scrollbar-width: thin;
+
 }
 
 .s_box .aaesthetics::-webkit-scrollbar {
@@ -472,6 +475,9 @@ footer {
 }
 
 
+/* ========== RESPONSIVE MEDIA QUERIES ========== */
+
+/* Tablet - max-width: 900px */
 @media (max-width: 900px) {
     .navbar {
         height: auto;
@@ -541,6 +547,7 @@ footer {
     }
 }
 
+/* Mobile - max-width: 600px */
 @media (max-width: 600px) {
     .navbar {
         flex-direction: column;
@@ -595,11 +602,13 @@ footer {
     }
 
     .aaesthetics {
+        /* Keep 2x2 grid on mobile */
         justify-content: space-around;
         padding: 0 10px;
     }
 
     .appliances {
+        /* Keep 2x2 grid on mobile */
         justify-content: space-around;
         padding: 0 10px;
     }
@@ -699,4 +708,89 @@ footer {
     .submit-btn {
         width: 100%;
     }
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+body.dark-mode .navbar {
+    background-color: #2d2d2d;
+    border-bottom: 1px solid #404040;
+}
+
+body.dark-mode .box,
+body.dark-mode .boxi,
+body.dark-mode .s_box,
+body.dark-mode .cart-page,
+body.dark-mode .sign_block,
+body.dark-mode .form-wrapper,
+body.dark-mode .row1 {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+    /* Soft white glow */
+}
+
+body.dark-mode .nav-links1,
+body.dark-mode .j,
+body.dark-mode .footer-text,
+body.dark-mode h2,
+body.dark-mode p {
+    color: #e0e0e0;
+}
+
+body.dark-mode footer {
+    background-color: #1a1a1a;
+    color: #888;
+}
+
+body.dark-mode #theme-toggle {
+    border-color: #e0e0e0;
+    color: #e0e0e0;
+}
+
+/* Fixes for Cart, Sign, and Address pages */
+body.dark-mode .total {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    border-color: #e0e0e0;
+}
+
+body.dark-mode h1,
+body.dark-mode .subtitle,
+body.dark-mode label,
+body.dark-mode .terms,
+body.dark-mode .org_price,
+body.dark-mode .discount {
+    color: #e0e0e0;
+}
+
+body.dark-mode .org_price {
+    color: #888;
+    /* Keep it slightly dimmer */
+}
+
+body.dark-mode .discount {
+    color: #66bb6a;
+    /* Brighter green for dark mode */
+}
+
+body.dark-mode input,
+body.dark-mode select {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    border-radius: 4px;
+    border: 1px solid #404040;
+}
+
+body.dark-mode input::placeholder {
+    color: #666;
+}
+
+body.dark-mode input:focus {
+    border-color: rgb(150, 205, 241);
+    background-color: #222;
 }
