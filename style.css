@@ -68,8 +68,9 @@ body {
 
 .box {
     width: calc(25% - 20px);
+    /* width: 25%; */
     max-width: 400px;
-    height: auto;
+    /* height: auto; */
     min-height: 500px;
     margin: 10px;
     margin-top: -385px;
@@ -78,6 +79,7 @@ body {
     position: relative;
     z-index: 2;
     padding-bottom: 20px;
+    box-sizing: border-box;
 }
 
 .boxi {
@@ -751,7 +753,10 @@ body.dark-mode #theme-toggle {
     border-color: #e0e0e0;
     color: #e0e0e0;
 }
-
+body.dark-mode .boxes {
+    background-color: #1a1a1a;
+    color: #888;
+}
 /* Fixes for Cart, Sign, and Address pages */
 body.dark-mode .total {
     background-color: #2d2d2d;
