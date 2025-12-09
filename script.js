@@ -1,6 +1,5 @@
 
-alert("Script is working! Close this and try the buttons.");
-console.log("Aurora script.js loaded!");
+
 
 
 const btn = document.getElementById('theme-toggle');
