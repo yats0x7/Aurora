@@ -43,14 +43,12 @@ body {
   background: #94a3b8;
 }
 
-html.dark {
-  ::-webkit-scrollbar-thumb {
-    background: #475569;
-  }
+html.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
 
-  ::-webkit-scrollbar-thumb:hover {
-    background: #64748b;
-  }
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
 }
 
 /* Animations */
